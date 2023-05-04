@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url("/Montserrat/Montserrat.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    color: #000000;
+}
+
+html,
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    background: rgba(39, 116, 183, 0.5);
+    padding: 0 8%;
+}
+
+.test-0-nav-4 input{
+    border-radius: 60rem;
+    width: 300px;   
+    height: 40px;
+    padding: 1rem;
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 8% 2rem;
+}
+
+.sale{
+    background: url("images/bg.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    position: relative;
+    padding: 0 8%;
+}
+
+.home-block1{
+    background: rgba(102, 114, 130, 0.5);
+    border-radius: 10px;
+    width: 607px;
+    height: 254px;
+}
+
+.home-block1 p{
+    font-size: 25px;
+    color: #fff;
+    padding: 2rem;
+}
+
+.home-block2{
+    position: absolute;
+    width: 403px;
+    height: 155px;
+    right: 82px;
+    top: 398px; 
+    background: rgba(101, 111, 127, 0.5);
+    border-radius: 10px;
+}
+
+.home-block2 p{
+    font-size: 25px;
+    color: #fff;
+    padding: 2rem;
+}
