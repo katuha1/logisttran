@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url("/Montserrat/Montserrat.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    color: #000000;
+}
+
+html,
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    background: #5DA4E2;
+    padding: 0 8%;
+}
+
+.test-0-nav-4 input{
+    border-radius: 60rem;
+    width: 300px;   
+    height: 40px;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.test-0-logo img {
+    width: 100px;
+}
+
+.test-0-logo p {
+    color: #fff;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 740px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content h1 {
+    text-align: center;
+    padding-bottom: 3rem;
+    color: #2774B7;
+}
+
+.content img {
+    width: 140px;
+    height: 140px;
+}
+
+.form {
+    position: relative;
+    margin-top: 2rem;
+    width: 564px;
+    height: 240px;
+    background: #5DA4E2;
+    border-radius: 10px;
+}
+.test-1-fpn {
+    position: absolute;
+    display: flex;
+    margin: 2rem 2rem;
+    align-items: center;
+}
+.test-1-fps {
+    position: absolute;
+    display: flex;
+    margin: 7rem 2rem;
+    align-items: center;
+}
+
+.test-1-fpn h3 {
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 36px;
+    padding-right: 0.5rem;
+}
+
+.test-1-fps h3 {
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 36px;
+    padding-right: 1.7rem;
+}
+
+.form input {
+    background: #5DA4E2;
+    border-radius: 10px;
+    width: 315px;
+    height: 66px;
+    border: 1px solid #fff;
+}
+
+.form h4 {
+    color: #ffffff;
+    position: absolute;
+    font-weight: 100;
+    bottom: 0.5rem;
+    left: 2rem;
+}
+
+.test-1-fbs {
+    margin-top: 1rem;
+    border-radius: 10px;
+    background-color: #FFB169;
+    width: 31.5rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.test-1-fbs p{
+    font-size: 24px;
+    color: #fff;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    padding: 0 8%;
+    justify-content: space-between;
+    height: 230px;
+    background: url("images/bdft.png")
+}
+
+.logo img {
+    width: 100px;
+    margin: 3.5rem 0 1rem;
+}
+
+.logo p {
+    color: #fff;
+    font-weight: bold;
+}
+
+.onn {
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.test-0-phone p {
+    margin-top: 5rem;
+    color: #fff
+}
+
+.cop {
+    position: absolute;
+    color: #fff;
+    bottom: 1rem;
+    left: 45%;
+}
